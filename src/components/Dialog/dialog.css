@@ -1,0 +1,51 @@
+@import '../../styles/variables.css';
+
+.dialog-container {
+    display: none;
+
+    position: fixed;
+    z-index: 9999;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.dialog-container--open {
+    display: block !important;
+}
+
+.dialog {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    margin: auto;
+    padding: 0;
+    
+    border: none;
+}
+
+.dialog-header {
+    padding: 1em;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.dialog-header__title {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+.dialog-body {
+    padding: 1em;
+}
+
+.dialog-footer {
+    border-top: 1px solid var(--secondary-color);
+}

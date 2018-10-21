@@ -1,0 +1,31 @@
+.figure {
+    display: inline-block;
+    margin: 1em;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 2px #ddd;
+}
+
+.figure a {
+    display: inline-block;
+}
+
+.figure__image {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+a.figure__image:hover {
+    outline: 1px sandybrown;
+}
+
+.figure__caption {
+    padding: 5px 0 0 0;
+    color: var(--black-color);
+}
+
+.figure__source {
+    color: var(--secondary-color);
+    font-size: .8em;
+    font-style: italic;
+}

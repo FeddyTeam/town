@@ -1,0 +1,13 @@
+.app {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.app-nav {}
+
+.app-content {
+    flex: 1;
+    overflow-y: auto;
+}

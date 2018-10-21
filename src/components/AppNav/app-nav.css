@@ -1,0 +1,35 @@
+@import '../../styles/variables.css';
+
+.app-nav {
+    --app-nav-width: 60px;
+    width: var(--app-nav-width);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: var(--white-color);
+}
+
+.app-nav__logo {
+    display: block;
+}
+
+.nav-menu {
+    font-size: .5rem;
+}
+
+.nav-menu__item {
+    display: block;
+    padding: 2em 0;
+    color: var(--text-color);
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s ease;
+}
+
+.nav-menu__item:hover {
+    background: var(--gray-color);
+}
+
+.app-nav--position-left {
+    box-shadow: 1px 0px 3px 2px var(--gray-color);
+}

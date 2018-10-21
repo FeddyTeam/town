@@ -1,0 +1,28 @@
+@import '../../styles/variables.css';
+
+.form {
+    display: block;
+}
+
+.form-item {
+    padding: 5px;
+}
+
+.form-item__label {
+    font-size: 0.9em;
+    color: var(--text-secondary-color);
+}
+
+.form-item__helper {
+    font-size: .8em;
+    color: var(--text-primary-color);
+}
+
+.form-item--theme-error .input {
+    border-color: var(--alert-color);
+}
+
+.form-item--theme-error .form-item__helper {
+    color: var(--alert-color);
+}
+

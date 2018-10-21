@@ -1,0 +1,12 @@
+@import '../../styles/variables.css';
+
+.input {
+    padding: 1em;
+    color: var(--text-secondary-color);
+    border: 1px solid var(--text-secondary-color);
+}
+
+.input:focus {
+    color: var(--text-primary-color);
+    outline-color: var(--focus-color);
+}

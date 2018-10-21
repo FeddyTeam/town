@@ -1,0 +1,63 @@
+@import './variables.css';
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    color: var(--black-color);
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+    outline: 2px solid var(--focus-color);
+}
+
+.colors-bar {
+    display: flex;
+    height: 100px;
+}
+
+.colors-bar__primary {
+    flex: 1;
+    background: var(--primary-color);
+}
+
+.colors-bar__secondary {
+    flex: 1;
+    background: var(--secondary-color);
+}
+
+.colors-bar__gray {
+    flex: 1;
+    background: var(--gray-color);
+}
+
+.colors-bar__focus {
+    flex: 1;
+    background: var(--focus-color);
+}
+
+.colors-bar__alert {
+    flex: 1;
+    background: var(--alert-color);
+}
+
+.form-item--theme-wow .input {
+    border-color: #ffa69e;
+}
+
+.form-item--theme-wow .form-item__label {
+    color: #ffa69e;
+}
+
+.form-item--theme-wow .form-item__helper {
+    color: #ffa69e;
+}

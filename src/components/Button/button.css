@@ -1,0 +1,51 @@
+@import '../../styles/variables.css';
+
+.button {
+    margin: 5px;
+    padding: 1em 2em;
+    color: var(--text-reverse-color);
+    background: none;
+    font-size: 1rem;
+    border: none;
+    opacity: .8;
+    outline: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+.button:active {
+    opacity: .5;
+}
+
+.button--primary {
+    background: var(--primary-color);
+}
+
+.button--secondary {
+    background: var(--secondary-color);
+}
+
+.button--alert {
+    opacity: 1;
+    background: var(--alert-color);
+}
+
+.button--alert:hover {
+    outline: 2px solid var(--alert-color);
+}
+
+.button--loading {
+    opacity: .5;
+    cursor: default;
+}
+
+.button-group {
+    margin: 5px;
+}
+
+.button-group .button {
+    margin: 0;
+}

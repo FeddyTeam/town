@@ -1,0 +1,35 @@
+@import '../../styles/variables.css';
+
+.notification {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 320px;
+    height: auto;
+}
+
+.notification-toast {
+    margin: 10px;
+    padding: 10px;
+    color: var(--white-color);
+}
+
+.notification-toast--success {
+    background: var(--success-color);
+}
+
+.notification-toast--info,
+.notification-toast--message {
+    color: var(--text-reverse-color);
+    background: var(--black-color);
+}
+
+.notification-toast--warning {
+    background: var(--focus-color);
+}
+
+.notification-toast--error,
+.notification-toast--alert {
+    background: var(--alert-color);
+}
